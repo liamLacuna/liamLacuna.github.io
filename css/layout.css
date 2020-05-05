@@ -306,7 +306,7 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.css {
+/* .css {
   	width: 60%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
@@ -315,7 +315,7 @@ ul#nav li.current a { color: #F06000; }
   	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
-}
+} */
 .es6 {
    width: 40%;
    -moz-animation: es6 2s ease;
@@ -327,9 +327,14 @@ ul#nav li.current a { color: #F06000; }
    -webkit-animation: es6 2s ease;
 }
 .java {
-   width: 40%;
+   width: 70%;
    -moz-animation: java 2s ease;
    -webkit-animation: java 2s ease;
+}
+.python {
+   width: 40%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
 }
 
 
@@ -351,6 +356,10 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes java {
    0%   { width: 0px;  }
+   100% { width: 70%;  }
+}
+@-moz-keyframes python {
+   0%   { width: 0px;  }
    100% { width: 40%;  }
 }
 @-webkit-keyframes css {
@@ -370,6 +379,10 @@ ul#nav li.current a { color: #F06000; }
    100% { width: 60%;  }
 }
 @-webkit-keyframes java {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+}
+@-webkit-keyframes python {
    0%   { width: 0px;  }
    100% { width: 40%;  }
 }

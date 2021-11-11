@@ -1,0 +1,2 @@
+(this["webpackJsonppersonalwebsite-codebase"]=this["webpackJsonppersonalwebsite-codebase"]||[]).push([[8],{113:function(e,a,t){"use strict";function s(e){e.languages.arff={comment:/%.*/,string:{pattern:/(["'])(?:\\.|(?!\1)[^\\\r\n])*\1/,greedy:!0},keyword:/@(?:attribute|data|end|relation)\b/i,number:/\b\d+(?:\.\d+)?\b/,punctuation:/[{},]/}}e.exports=s,s.displayName="arff",s.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_arff.f9d229bb.chunk.js.map
